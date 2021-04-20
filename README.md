@@ -4,13 +4,14 @@ infinite books api is api created in python to search book from libgen
 ## End points
 The API accepts a string seperated by comma this string is split into a list of 4 filters need by the [libgen-api](https://pypi.org/project/libgen-api/)
 
-**example** : **https://infinite-reads-api.herokuapp.com/rich dad poor dad,Kiyosaki,2017,english**
+**example** : **https://infinite-reads-api.herokuapp.com/rich%20dad%20poor%20dad,Kiyosaki,2017,english,epub**
 
 ## Rules
 - The first entry should the title name of the book
-- second entry follows the author name
-- third looks for year of publication in libgen database
-- finally the language you want the book to be
+- Second entry follows the author name
+- Third looks for year of publication in libgen database
+- Next the language you want the book to be
+- Finally the extension of the file
 
 ## Result
 `
