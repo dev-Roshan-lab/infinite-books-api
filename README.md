@@ -1,8 +1,8 @@
 # infinite-books-api
-infinite books api is api created in python to search book from libgen
+infinite books api is api created in python to search book from LibGen
 
 ## End points
-The API accepts a string seperated by comma this string is split into a list of 4 filters need by the [libgen-api](https://pypi.org/project/libgen-api/)
+The API accepts a string seperated by comma, this string is split into 4 strings that serve as filters accepted by the [libgen-api](https://pypi.org/project/libgen-api/)
 
 **example** : **https://infinite-reads-api.herokuapp.com/rich%20dad%20poor%20dad,Kiyosaki,2017,english,epub**
 
